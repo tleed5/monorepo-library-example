@@ -30,3 +30,5 @@ This setup will always attempt to publish all packages since `--no-git-tag-versi
 
 ## Notes
 * Lerna is set to independent versioning, meaning that each package can have a different version to each other. 
+* Alternative to using Github packages https://verdaccio.org/en/ 
+* Limitation of Github Packages anyone who has read/write repository permissions can publish a new version of the packages
