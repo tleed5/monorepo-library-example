@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "publish": "lerna publish --no-git-tag-version --no-push"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tleed5/monorepo-library-example.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "author": "",
   "license": "ISC",
