@@ -1,6 +1,6 @@
 {
-  "name": "@tleed5/monorepo-library-example",
-  "version": "1.0.0",
+  "name": "monorepo-library-example",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/tleed5/monorepo-library-example.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tleed5/monorepo-library-example/issues"
   },
-  "homepage": "https://github.com/tleed5/monorepo-library-example#readme"
+  "homepage": "https://github.com/tleed5/monorepo-library-example#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
 }

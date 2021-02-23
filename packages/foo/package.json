@@ -1,0 +1,26 @@
+{
+  "name": "@tleed5/foo",
+  "version": "1.0.0",
+  "description": "Module 1",
+  "author": "Travis Leeden <leedentravis@gmail.com>",
+  "homepage": "https://github.com/tleed5/monorepo-library-example/tree/master/packages/foo#readme",
+  "license": "ISC",
+  "main": "lib/foo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tleed5/monorepo-library-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tleed5/monorepo-library-example/issues"
+  }
+}
